@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+  <div class="main grid grid-cols-2 m-auto justify-center items-center text-sm max-md:grid-cols-1">
+
+    <div class="image flex justify-end items-center">
+      <img class="w-[380px] max-md:hidden" src="insta-img.png" alt="">
+    </div>
+
+    <div class="container w-[350px] h-[413px] mb-32">
+    <div class="containerIG flex flex-col w-[350px] h-[413px] text-center justify-center items-center border mr-auto space-y-5">
+      <img class="w-[175px] mb-0" src="insta-logo.png" alt="">
+      <div class="form flex flex-col space-y-3">
+        <input class="w-[268px] h-[40px] border pl-2 rounded-sm" type="text" placeholder="Telefone, nome de usuário ou email">
+        <input class="w-[268px] h-[40px] border pl-2 rounded-sm" type="text" placeholder="Senha">
+        <button class="bg-[#0095F6] text-white w-[268px] h-[32px] rounded-md hover:bg-[#1877F2]">Entrar</button>
+
+        <div class="separator flex items-center justify-center mx-[20px]">
+        <div class="line flex-1 h-[1px] bg-[#dbdbdb] mr-3"></div>
+          <p class="text-[#737373] text-[13px]">OU</p>
+        <div class="line flex-1 h-[1px] bg-[#dbdbdb] ml-3"></div>
+        </div>
+
+        <a class="text-[#0095F7]" href="#">Entrar com o Facebook.</a>
+        <a href="#">Esqueceu a senha?</a>
+      </div>
+    </div>
+
+    <div class="accont border w-[350px] h-[63px] mt-3 flex items-center justify-center">
+      <p>Não tem uma conta? <a class="text-[#0095F7]" href="#">Cadastre-se</a></p>
+    </div>
+
+    <p class="text-center my-5">Obtenha o aplicativo.</p>
+    <div class="download flex justify-center">
+      <img class="w-[130px]" src="google.png" alt="">
+      <img class="w-[120px]" src="apple.png" alt="">
+    </div>
+  </div>
+</div>
+
+  <footer class="mb-10 text-xs text-[#737373] mt-12">
+    <ul class="flex justify-center space-x-6 mt-auto flex-wrap">
+    <li class="hover:underline">Meta</li>
+    <li class="hover:underline">Sobre</li>
+    <li class="hover:underline">Blog</li>
+    <li class="hover:underline">Carreiras</li>
+    <li class="hover:underline">Ajuda</li>
+    <li class="hover:underline">API</li>
+    <li class="hover:underline">Privacidade</li>
+    <li class="hover:underline">Termos</li>
+    <li class="hover:underline">Localizações</li>
+    <li class="hover:underline">Instagram Lite</li>
+    <li class="hover:underline">Threads</li>
+    <li class="hover:underline">Carregamento de contatos e não usuários</li>
+    <li class="hover:underline">Meta Verified</li>
+    </ul>
+
+  <div>
+    <ul class="flex justify-center mt-4">
+      <li class="hover: text-[#737373]">
+        Português (Brasil)
+        © 2024 Instagram from Meta</li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
